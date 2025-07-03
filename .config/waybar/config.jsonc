@@ -1,0 +1,35 @@
+{
+    "height": 30,
+    "spacing": 5,
+
+    "modules-left": ["hyprland/workspaces",],
+
+    "modules-center": ["clock",],
+
+    "modules-right": ["pulseaudio","network",],
+
+    "clock": {
+	"format": "{:%H:%M:%S}",
+	"interval": 1,
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d-%m-%Y}"
+    },
+
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-muted": "  0%",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "hyprctl dispatch exec '[float; size 800 512; center] pavucontrol'",
+	"on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    },
+
+    "network": {
+        "format-wifi": " ",
+        "format-ethernet": " ",
+        "format-disconnected": "No Signal",
+        "format-alt": "{ipaddr}"
+     },
+
+}
