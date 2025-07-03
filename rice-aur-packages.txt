@@ -1,0 +1,5 @@
+hyprshot
+qview
+brave-bin
+qt5ct-kde
+qt6ct-kde

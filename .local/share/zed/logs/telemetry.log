@@ -1,0 +1,5 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Flexible","event_type":"App Opened","event_properties":{}}
+{"signed_in":false,"milliseconds_since_first_event":23,"type":"Flexible","event_type":"Extension Loaded","event_properties":{"extension_id":"html","version":"0.2.1"}}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Flexible","event_type":"Settings Changed","event_properties":{"setting":"theme","value":"Gruvbox Dark Soft"}}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Flexible","event_type":"Settings Changed","event_properties":{"setting":"keymap","value":"VSCode"}}
+{"signed_in":false,"milliseconds_since_first_event":231,"type":"Flexible","event_type":"Editor Opened","event_properties":{"file_extension":"json","vim_mode":true,"copilot_enabled":false,"edit_predictions_provider":"zed","is_via_ssh":false,"copilot_enabled_for_language":true}}

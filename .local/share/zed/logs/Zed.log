@@ -1,0 +1,351 @@
+2025-07-02T21:02:35-03:00 INFO  [zed] ========== starting zed ==========
+2025-07-02T21:02:38-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-global/db.sqlite
+2025-07-02T21:02:38-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:02:38-03:00 INFO  [zed] Using git binary path: None
+2025-07-02T21:02:38-03:00 INFO  [prompt_store::prompts] No prompt template overrides directory found at /home/matheus/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-07-02T21:02:38-03:00 INFO  [assistant_tools::terminal_tool] agent selected bash for terminal tool
+2025-07-02T21:02:38-03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-07-02T21:02:38-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:02:38-03:00 INFO  [util] set environment variables from shell:/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-07-02T21:02:38-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:02:39-03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1050 Ti", driver_name: "NVIDIA", driver_info: "575.64.03" }
+2025-07-02T21:02:39-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:02:39-03:00 ERROR [client] DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:39-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:02:39-03:00 ERROR [zed] Is a directory (os error 21)
+2025-07-02T21:02:39-03:00 INFO  [workspace] Couldn't find any enabled panel for the left dock.
+2025-07-02T21:02:39-03:00 INFO  [extension_host] rebuilt extension index in 907.336µs
+2025-07-02T21:02:39-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:02:39-03:00 ERROR [crates] No such file or directory (os error 2)
+2025-07-02T21:02:39-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:39-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Anthropic: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:39-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: DeepSeek: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:39-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Google AI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:39-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Mistral: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:39-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenAI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:39-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenRouter: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:39-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Vercel: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:02:43-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:02:56-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:03:03-03:00 INFO  [workspace] open paths ["/home/matheus/.config/zed/settings.json"]
+2025-07-02T21:03:03-03:00 INFO  [project::lsp_store] attempting to start language server "json-language-server", path: "/home/matheus/.config/zed/settings.json", id: 1
+2025-07-02T21:03:03-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T21:03:03-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:03:03-03:00 INFO  [node_runtime] Node runtime install_if_needed
+2025-07-02T21:03:03-03:00 INFO  [node_runtime] Downloading Node.js binary from https://nodejs.org/dist/v22.5.1/node-v22.5.1-linux-x64.tar.gz
+2025-07-02T21:03:03-03:00 INFO  [project::environment] using project environment variables shell launched in "/home/matheus/.config/zed". PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+2025-07-02T21:03:03-03:00 INFO  [language] fetching latest version of language server "json-language-server"
+2025-07-02T21:03:03-03:00 INFO  [node_runtime] Download of Node.js complete, extracting...
+2025-07-02T21:03:11-03:00 INFO  [node_runtime] Extracted Node.js to /home/matheus/.local/share/zed/node
+2025-07-02T21:03:11-03:00 INFO  [node_runtime] using Zed managed Node.js at /home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64 since system Node.js wasn't found on PATH: cannot find binary path
+2025-07-02T21:03:12-03:00 INFO  [language] downloading language server "json-language-server"
+2025-07-02T21:03:12-03:00 INFO  [project::prettier_store] Installing default prettier and plugins: [("prettier", "3.6.2")]
+2025-07-02T21:03:13-03:00 INFO  [project::prettier_store] Initialized prettier with plugins: {}
+2025-07-02T21:03:16-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/.config/zed", args: ["/home/matheus/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-07-02T21:03:28-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:04:59-03:00 INFO  [extension_host] installing extension catppuccin latest version
+2025-07-02T21:05:00-03:00 INFO  [extension_host] rebuilt extension index in 242.038381ms
+2025-07-02T21:05:00-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:05:00-03:00 INFO  [extension_host] installing extension html latest version
+2025-07-02T21:05:02-03:00 INFO  [extension_host] rebuilt extension index in 253.667712ms
+2025-07-02T21:05:02-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:05:18-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:05:34-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:07:35-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:07:50-03:00 INFO  [extension_host] installing extension one-dark-pro latest version
+2025-07-02T21:07:51-03:00 INFO  [extension_host] rebuilt extension index in 292.778504ms
+2025-07-02T21:07:51-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:07:54-03:00 INFO  [extension_host] rebuilt extension index in 271.973763ms
+2025-07-02T21:07:54-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:07:55-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:07:59-03:00 INFO  [extension_host] installing extension material-dark latest version
+2025-07-02T21:08:00-03:00 INFO  [extension_host] rebuilt extension index in 292.2846ms
+2025-07-02T21:08:00-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:08:03-03:00 INFO  [extension_host] rebuilt extension index in 282.065175ms
+2025-07-02T21:08:03-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:08:03-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:08:08-03:00 INFO  [extension_host] installing extension smooth latest version
+2025-07-02T21:08:08-03:00 INFO  [extension_host] rebuilt extension index in 291.073701ms
+2025-07-02T21:08:08-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:08:11-03:00 INFO  [extension_host] rebuilt extension index in 274.854431ms
+2025-07-02T21:08:11-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:08:11-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:08:13-03:00 INFO  [extension_host] installing extension catppuccin-blur latest version
+2025-07-02T21:08:14-03:00 INFO  [extension_host] rebuilt extension index in 405.2288ms
+2025-07-02T21:08:14-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:08:14-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:32-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:08:41-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:43-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:08:43-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:44-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:08:44-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:47-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:08:48-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:48-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:08:51-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:51-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:08:55-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:55-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:08:55-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:56-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:08:56-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:08:59-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:09:05-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:09:06-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:09:06-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:09:08-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:09:09-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:09:43-03:00 INFO  [extension_host] rebuilt extension index in 132.309782ms
+2025-07-02T21:09:43-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:09:43-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:10:36-03:00 INFO  [workspace] open paths ["/home/matheus/.config/zed/settings.json"]
+2025-07-02T21:11:07-03:00 INFO  [extension_host] rebuilt extension index in 130.842975ms
+2025-07-02T21:11:07-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:11:07-03:00 INFO  [project::lsp_store] stopping language server json-language-server
+2025-07-02T21:11:07-03:00 ERROR [lsp] Server reset connection for a request "shutdown" id 22
+2025-07-02T21:11:07-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:11:09-03:00 INFO  [extension_host] installing extension html latest version
+2025-07-02T21:11:10-03:00 INFO  [extension_host] rebuilt extension index in 131.464378ms
+2025-07-02T21:11:10-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:11:17-03:00 INFO  [extension_host] rebuilt extension index in 2.489974ms
+2025-07-02T21:11:17-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:11:17-03:00 ERROR [theme::settings] theme not found: Catppuccin Frappé (Blur)
+2025-07-02T21:11:17-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:11:17-03:00 ERROR [theme::settings] theme not found: Catppuccin Frappé (Blur)
+2025-07-02T21:11:17-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:11:24-03:00 INFO  [extension_host] rebuilt extension index in 937.245µs
+2025-07-02T21:11:24-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:11:24-03:00 ERROR [theme::settings] theme not found: Catppuccin Frappé (Blur)
+2025-07-02T21:11:24-03:00 ERROR [theme::settings] theme not found: Catppuccin Frappé (Blur)
+2025-07-02T21:11:24-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:11:43-03:00 ERROR [zed] missing field `name` at line 18 column 1
+2025-07-02T21:12:44-03:00 INFO  [workspace] open paths ["/home/matheus/.config/zed/settings.json"]
+2025-07-02T21:12:44-03:00 INFO  [project::lsp_store] attempting to start language server "json-language-server", path: "/home/matheus/.config/zed/settings.json", id: 2
+2025-07-02T21:12:44-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/.config/zed", args: ["/home/matheus/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-07-02T21:12:54-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:12:56-03:00 INFO  [project::prettier_store] Starting prettier at path "/home/matheus/.local/share/zed/prettier"
+2025-07-02T21:12:56-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/.local/share/zed/prettier", args: ["/home/matheus/.local/share/zed/prettier/prettier_server.js", "/home/matheus/.local/share/zed/prettier"]
+2025-07-02T21:12:56-03:00 INFO  [project::prettier_store] Started default prettier in "/home/matheus/.local/share/zed/prettier"
+2025-07-02T21:12:56-03:00 ERROR [zed] missing field `name` at line 19 column 1
+2025-07-02T21:13:13-03:00 ERROR [zed] missing field `name` at line 19 column 1
+2025-07-02T21:14:10-03:00 INFO  [workspace] open paths ["/home/matheus/.config/zed/settings.json"]
+2025-07-02T21:19:41-03:00 INFO  [extension_host] installing extension ultimate-dark-neo latest version
+2025-07-02T21:19:42-03:00 INFO  [extension_host] rebuilt extension index in 17.428631ms
+2025-07-02T21:19:42-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:19:46-03:00 INFO  [extension_host] rebuilt extension index in 848.561µs
+2025-07-02T21:19:46-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:19:46-03:00 ERROR [zed] missing field `name` at line 19 column 1
+2025-07-02T21:19:48-03:00 INFO  [extension_host] installing extension rose-pine-theme latest version
+2025-07-02T21:19:48-03:00 INFO  [extension_host] rebuilt extension index in 63.616162ms
+2025-07-02T21:19:48-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:19:55-03:00 INFO  [extension_host] rebuilt extension index in 966.532µs
+2025-07-02T21:19:55-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:19:55-03:00 ERROR [zed] missing field `name` at line 19 column 1
+2025-07-02T21:19:56-03:00 INFO  [extension_host] installing extension tailwind-theme latest version
+2025-07-02T21:19:57-03:00 INFO  [extension_host] rebuilt extension index in 25.712534ms
+2025-07-02T21:19:57-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:20:01-03:00 INFO  [extension_host] rebuilt extension index in 722.824µs
+2025-07-02T21:20:01-03:00 INFO  [extension_host] extensions updated. loading 0, reloading 0, unloading 1
+2025-07-02T21:20:01-03:00 ERROR [zed] missing field `name` at line 19 column 1
+2025-07-02T21:22:04-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:22:04-03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1050 Ti", driver_name: "NVIDIA", driver_info: "575.64.03" }
+2025-07-02T21:22:04-03:00 INFO  [project::lsp_store] stopping language server json-language-server
+2025-07-02T21:22:04-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:22:04-03:00 ERROR [lsp] Server reset connection for a request "shutdown" id 46
+2025-07-02T21:22:04-03:00 ERROR [crates] No such file or directory (os error 2)
+2025-07-02T21:22:04-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:04-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Anthropic: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:04-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: DeepSeek: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:04-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Google AI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:04-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Mistral: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:04-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenAI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:04-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenRouter: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:04-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Vercel: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:25-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:22:25-03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1050 Ti", driver_name: "NVIDIA", driver_info: "575.64.03" }
+2025-07-02T21:22:25-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:22:26-03:00 ERROR [crates] No such file or directory (os error 2)
+2025-07-02T21:22:26-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:26-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Anthropic: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:26-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: DeepSeek: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:26-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Google AI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:26-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Mistral: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:26-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenAI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:26-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenRouter: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:26-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Vercel: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:22:27-03:00 ERROR [gpui] window not found
+2025-07-02T21:22:27-03:00 ERROR [gpui] window not found
+2025-07-02T21:22:27-03:00 ERROR [lsp] Server reset connection for a request "shutdown" id 3
+2025-07-02T21:22:27-03:00 ERROR [zed] missing field `name` at line 19 column 1
+2025-07-02T21:24:27-03:00 INFO  [zed] ========== starting zed ==========
+2025-07-02T21:24:27-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-global/db.sqlite
+2025-07-02T21:24:27-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:24:27-03:00 INFO  [zed] Using git binary path: None
+2025-07-02T21:24:27-03:00 INFO  [prompt_store::prompts] No prompt template overrides directory found at /home/matheus/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-07-02T21:24:27-03:00 INFO  [assistant_tools::terminal_tool] agent selected bash for terminal tool
+2025-07-02T21:24:27-03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-07-02T21:24:27-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:24:27-03:00 INFO  [extension_host] installing extension html latest version
+2025-07-02T21:24:27-03:00 INFO  [util] set environment variables from shell:/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-07-02T21:24:27-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:24:27-03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1050 Ti", driver_name: "NVIDIA", driver_info: "575.64.03" }
+2025-07-02T21:24:27-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:24:27-03:00 ERROR [client] DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:27-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:24:27-03:00 INFO  [project::debugger::breakpoint_store] Finish deserializing breakpoints & initializing breakpoint store
+2025-07-02T21:24:27-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:24:27-03:00 ERROR [crates] No such file or directory (os error 2)
+2025-07-02T21:24:27-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:27-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Anthropic: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:27-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: DeepSeek: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:27-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Google AI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:27-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Mistral: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:27-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenAI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:27-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenRouter: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:27-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Vercel: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:24:29-03:00 INFO  [extension_host] rebuilt extension index in 2.727337ms
+2025-07-02T21:24:29-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:25:00-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:25:00-03:00 INFO  [project::lsp_store] attempting to start language server "tailwindcss-language-server", path: "/home/matheus/Projetos", id: 1
+2025-07-02T21:25:00-03:00 INFO  [project::lsp_store] attempting to start language server "vscode-html-language-server", path: "/home/matheus/Projetos", id: 2
+2025-07-02T21:25:00-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T21:25:00-03:00 INFO  [project::environment] using project environment variables shell launched in "/home/matheus/Projetos". PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+2025-07-02T21:25:00-03:00 INFO  [language] fetching latest version of language server "tailwindcss-language-server"
+2025-07-02T21:25:00-03:00 INFO  [node_runtime] Node runtime install_if_needed
+2025-07-02T21:25:01-03:00 INFO  [node_runtime] using Zed managed Node.js at /home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64 since system Node.js wasn't found on PATH: cannot find binary path
+2025-07-02T21:25:01-03:00 INFO  [language] downloading language server "tailwindcss-language-server"
+2025-07-02T21:25:03-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/Projetos", args: ["/home/matheus/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-07-02T21:25:04-03:00 INFO  [lsp] Language server with id 1 sent unhandled notification window/logMessage:
+{
+  "type": 4,
+  "message": "Setting up server…"
+}
+2025-07-02T21:25:04-03:00 INFO  [lsp] Language server with id 1 sent unhandled notification window/logMessage:
+{
+  "type": 4,
+  "message": "Listening for messages…"
+}
+2025-07-02T21:25:06-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/Projetos", args: ["/home/matheus/.local/share/zed/extensions/work/html/node_modules/@zed-industries/vscode-langservers-extracted/bin/vscode-html-language-server", "--stdio"]
+2025-07-02T21:25:06-03:00 WARN  [project::lsp_store] unhandled capability registration: Registration { id: "745808af-9896-4960-9c5d-8244e35e6806", method: "workspace/didChangeWorkspaceFolders", register_options: Some(Object {}) }
+2025-07-02T21:25:16-03:00 ERROR [lsp] Server reset connection for a request "shutdown" id 36
+2025-07-02T21:25:16-03:00 ERROR [lsp] Server reset connection for a request "shutdown" id 97
+2025-07-02T21:25:17-03:00 INFO  [zed] ========== starting zed ==========
+2025-07-02T21:25:18-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-global/db.sqlite
+2025-07-02T21:25:18-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:25:18-03:00 INFO  [zed] Using git binary path: None
+2025-07-02T21:25:18-03:00 INFO  [prompt_store::prompts] No prompt template overrides directory found at /home/matheus/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-07-02T21:25:18-03:00 INFO  [assistant_tools::terminal_tool] agent selected bash for terminal tool
+2025-07-02T21:25:18-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T21:25:18-03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-07-02T21:25:18-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:25:18-03:00 INFO  [util] set environment variables from shell:/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-07-02T21:25:18-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T21:25:18-03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1050 Ti", driver_name: "NVIDIA", driver_info: "575.64.03" }
+2025-07-02T21:25:18-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T21:25:18-03:00 ERROR [client] DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:25:18-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:25:18-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T21:25:18-03:00 INFO  [project::debugger::breakpoint_store] Finish deserializing breakpoints & initializing breakpoint store
+2025-07-02T21:25:18-03:00 ERROR [crates] No such file or directory (os error 2)
+2025-07-02T21:25:18-03:00 INFO  [project::lsp_store] attempting to start language server "tailwindcss-language-server", path: "/home/matheus/Projetos", id: 1
+2025-07-02T21:25:18-03:00 INFO  [project::lsp_store] attempting to start language server "vscode-html-language-server", path: "/home/matheus/Projetos", id: 2
+2025-07-02T21:25:18-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T21:25:18-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Anthropic: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: DeepSeek: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Google AI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Mistral: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenAI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenRouter: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Vercel: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:25:18-03:00 INFO  [project::environment] using project environment variables shell launched in "/home/matheus/Projetos". PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+2025-07-02T21:25:18-03:00 INFO  [language] fetching latest version of language server "tailwindcss-language-server"
+2025-07-02T21:25:18-03:00 INFO  [node_runtime] Node runtime install_if_needed
+2025-07-02T21:25:18-03:00 INFO  [node_runtime] using Zed managed Node.js at /home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64 since system Node.js wasn't found on PATH: cannot find binary path
+2025-07-02T21:25:18-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T21:25:19-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/Projetos", args: ["/home/matheus/.local/share/zed/extensions/work/html/node_modules/@zed-industries/vscode-langservers-extracted/bin/vscode-html-language-server", "--stdio"]
+2025-07-02T21:25:19-03:00 INFO  [language] language server "tailwindcss-language-server" is already installed
+2025-07-02T21:25:19-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/Projetos", args: ["/home/matheus/.local/share/zed/languages/tailwindcss-language-server/node_modules/.bin/tailwindcss-language-server", "--stdio"]
+2025-07-02T21:25:19-03:00 WARN  [project::lsp_store] unhandled capability registration: Registration { id: "b1586483-de12-4746-b953-5e8664957f0e", method: "workspace/didChangeWorkspaceFolders", register_options: Some(Object {}) }
+2025-07-02T21:27:07-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T21:27:16-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T21:27:28-03:00 INFO  [client] set status on client 0: Authenticating
+2025-07-02T21:27:28-03:00 ERROR [client] DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:27:31-03:00 INFO  [client] set status on client 0: Reauthenticating
+2025-07-02T21:27:31-03:00 ERROR [workspace::notifications] authentication canceled
+2025-07-02T21:27:31-03:00 ERROR [client] DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T21:29:11-03:00 INFO  [client] set status on client 0: ConnectionError
+2025-07-02T21:29:11-03:00 ERROR [workspace::notifications] didn't receive login redirect
+2025-07-02T22:33:25-03:00 ERROR [lsp] Server reset connection for a request "shutdown" id 480
+2025-07-02T22:33:25-03:00 ERROR [lsp] Server reset connection for a request "shutdown" id 202
+2025-07-02T22:33:25-03:00 ERROR [gpui] window not found
+2025-07-02T22:33:25-03:00 ERROR [gpui] window not found
+2025-07-02T22:57:49-03:00 INFO  [zed] ========== starting zed ==========
+2025-07-02T22:57:50-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-global/db.sqlite
+2025-07-02T22:57:50-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T22:57:50-03:00 INFO  [zed] Using git binary path: None
+2025-07-02T22:57:50-03:00 INFO  [prompt_store::prompts] No prompt template overrides directory found at /home/matheus/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-07-02T22:57:50-03:00 INFO  [assistant_tools::terminal_tool] agent selected bash for terminal tool
+2025-07-02T22:57:50-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T22:57:50-03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-07-02T22:57:50-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T22:57:50-03:00 INFO  [util] set environment variables from shell:/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-07-02T22:57:50-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T22:57:50-03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1050 Ti", driver_name: "NVIDIA", driver_info: "575.64.03" }
+2025-07-02T22:57:50-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T22:57:50-03:00 ERROR [client] DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:57:50-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T22:57:50-03:00 INFO  [project::debugger::breakpoint_store] Finish deserializing breakpoints & initializing breakpoint store
+2025-07-02T22:57:50-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T22:57:50-03:00 ERROR [crates] No such file or directory (os error 2)
+2025-07-02T22:57:50-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:57:50-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Anthropic: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:57:50-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: DeepSeek: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:57:50-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Google AI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:57:50-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Mistral: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:57:50-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenAI: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:57:50-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: OpenRouter: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:57:50-03:00 ERROR [agent_ui::language_model_selector] Failed to authenticate provider: Vercel: DBus error service error org.freedesktop.zbus.Error: O objeto não existe no caminho “/org/freedesktop/secrets/collection/login”
+2025-07-02T22:58:05-03:00 INFO  [workspace] open paths ["/home/matheus/.config/zed/settings.json"]
+2025-07-02T22:58:05-03:00 INFO  [project::lsp_store] attempting to start language server "json-language-server", path: "/home/matheus/.config/zed/settings.json", id: 1
+2025-07-02T22:58:05-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T22:58:05-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T22:58:05-03:00 INFO  [project::environment] using project environment variables shell launched in "/home/matheus/.config/zed". PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+2025-07-02T22:58:05-03:00 INFO  [language] fetching latest version of language server "json-language-server"
+2025-07-02T22:58:05-03:00 INFO  [node_runtime] Node runtime install_if_needed
+2025-07-02T22:58:05-03:00 INFO  [node_runtime] using Zed managed Node.js at /home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64 since system Node.js wasn't found on PATH: cannot find binary path
+2025-07-02T22:58:06-03:00 INFO  [language] language server "json-language-server" is already installed
+2025-07-02T22:58:06-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/.config/zed", args: ["/home/matheus/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-07-02T23:37:42-03:00 INFO  [zed] ========== starting zed ==========
+2025-07-02T23:37:46-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-global/db.sqlite
+2025-07-02T23:37:46-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T23:37:46-03:00 INFO  [zed] Using git binary path: None
+2025-07-02T23:37:46-03:00 INFO  [util] set environment variables from shell:/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2025-07-02T23:37:46-03:00 INFO  [prompt_store::prompts] No prompt template overrides directory found at /home/matheus/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-07-02T23:37:46-03:00 INFO  [assistant_tools::terminal_tool] agent selected bash for terminal tool
+2025-07-02T23:37:46-03:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-07-02T23:37:46-03:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-07-02T23:37:46-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T23:37:46-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-07-02T23:37:46-03:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1050 Ti", driver_name: "NVIDIA", driver_info: "575.64.03" }
+2025-07-02T23:37:46-03:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-07-02T23:37:46-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T23:37:46-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T23:37:46-03:00 INFO  [workspace] open paths ["/home/matheus/.config/zed/settings.json"]
+2025-07-02T23:37:46-03:00 INFO  [db] Opening database /home/matheus/.local/share/zed/db/0-stable/db.sqlite
+2025-07-02T23:37:46-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T23:37:46-03:00 ERROR [crates] No such file or directory (os error 2)
+2025-07-02T23:37:46-03:00 INFO  [project::lsp_store] attempting to start language server "json-language-server", path: "/home/matheus/.config/zed/settings.json", id: 1
+2025-07-02T23:37:46-03:00 INFO  [project::debugger::breakpoint_store] Finish deserializing breakpoints & initializing breakpoint store
+2025-07-02T23:37:46-03:00 INFO  [project::environment] using project environment variables shell launched in "/home/matheus/.config/zed". PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+2025-07-02T23:37:46-03:00 INFO  [language] fetching latest version of language server "json-language-server"
+2025-07-02T23:37:46-03:00 INFO  [node_runtime] Node runtime install_if_needed
+2025-07-02T23:37:46-03:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-07-02T23:37:47-03:00 INFO  [node_runtime] using Zed managed Node.js at /home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64 since system Node.js wasn't found on PATH: cannot find binary path
+2025-07-02T23:37:48-03:00 INFO  [language] language server "json-language-server" is already installed
+2025-07-02T23:37:48-03:00 INFO  [lsp] starting language server process. binary path: "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node", working directory: "/home/matheus/.config/zed", args: ["/home/matheus/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+2025-07-03T00:14:15-03:00 ERROR [lsp] Server reset connection for a request "shutdown" id 8
+2025-07-03T00:14:15-03:00 ERROR [gpui] window not found
+2025-07-03T00:14:15-03:00 ERROR [gpui] window not found

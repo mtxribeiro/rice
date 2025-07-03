@@ -1,0 +1,29 @@
+0 verbose cli /home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/node /home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.5.1
+3 silly config load:file:/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/matheus/.local/share/zed/languages/tailwindcss-language-server/.npmrc
+5 silly config load:file:/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/blank_user_npmrc
+6 silly config load:file:/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/blank_global_npmrc
+7 verbose title npm install @tailwindcss/language-server@0.14.23
+8 verbose argv "install" "--cache" "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/cache" "--userconfig" "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/blank_user_npmrc" "--globalconfig" "/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/blank_global_npmrc" "@tailwindcss/language-server@0.14.23" "--save-exact" "--fetch-retry-mintimeout" "2000" "--fetch-retry-maxtimeout" "5000" "--fetch-timeout" "5000" "--prefix" "/home/matheus/.local/share/zed/languages/tailwindcss-language-server"
+9 verbose logfile logs-max:10 dir:/home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/cache/_logs/2025-07-03T00_25_01_817Z-
+10 verbose logfile /home/matheus/.local/share/zed/node/node-v22.5.1-linux-x64/cache/_logs/2025-07-03T00_25_01_817Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @tailwindcss/language-server@0.14.23
+15 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2flanguage-server cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2flanguage-server 19ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2flanguage-server set size:745415 disposed:false
+18 silly placeDep ROOT @tailwindcss/language-server@0.14.23 OK for:  want: 0.14.23
+19 silly reify moves {}
+20 silly tarball no local data for @tailwindcss/language-server@https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.23.tgz. Extracting by manifest.
+21 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/language-server/-/language-server-0.14.23.tgz 1299ms (cache miss)
+22 silly ADD node_modules/@tailwindcss/language-server
+23 verbose cwd /home/matheus/.local/share/zed/languages/tailwindcss-language-server
+24 verbose os Linux 6.15.4-4-cachyos
+25 verbose node v22.5.1
+26 verbose npm  v10.8.2
+27 verbose exit 0
+28 info ok
