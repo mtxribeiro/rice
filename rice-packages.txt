@@ -20,3 +20,4 @@ breeze-gtk
 hyprlock
 hyprpicker
 zed
+waybar
