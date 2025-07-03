@@ -1,6 +1,6 @@
 # Rice Hyprland Gruvbox
 
-Este repositório é um backup completo e restaurável do meu setup pessoal no CachyOS, usando Hyprland e tema Gruvbox.
+Backup completo e restaurável do meu rice no CachyOS, usando Hyprland e tema Gruvbox.
 
 ## Conteúdo
 
@@ -11,10 +11,10 @@ Este repositório é um backup completo e restaurável do meu setup pessoal no C
 
 ## Instalação
 
-git clone https://github.com/seu-usuario/rice.git
-cd rice
-chmod +x setup.sh
-./setup.sh
+git clone https://github.com/seu-usuario/rice.git --------
+cd rice --------------------------------------------------
+chmod +x setup.sh ----------------------------------------
+./setup.sh -----------------------------------------------
 
 ## Dependências principais:
 
@@ -27,15 +27,3 @@ Waybar, Nwg-bar, Nwg-look
 Tema GTK: Breeze / Gruvbox
 
 Fontes: FiraCode Nerd Font, Noto Emoji
-
-## Estrutura
-
-rice/
-├── .bashrc
-├── .config/
-├── .themes/
-├── .local/
-├── Wallpapers/
-├── rice-packages.txt
-├── rice-aur-packages.txt
-└── setup.sh
