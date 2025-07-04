@@ -64,3 +64,7 @@ window#waybar {
     background-color: #32302f;
     color: #fbf1c7;
 }
+
+#tray {
+  padding: 0 12px;
+}
