@@ -4,17 +4,20 @@ Backup completo e restaurável do meu rice no CachyOS, usando Hyprland e tema Gr
 
 ## Conteúdo
 
-- Configurações: `.config/`, `.themes/`, `.local/share/`
+- Configurações:
 - Wallpapers personalizados
 - Lista de pacotes (repo + AUR)
 - Script de restauração automática
 
 ## Instalação
 
-git clone https://github.com/seu-usuario/rice.git --------
-cd rice --------------------------------------------------
-chmod +x setup.sh ----------------------------------------
-./setup.sh -----------------------------------------------
+git clone https://github.com/seu-usuario/rice.git
+
+cd rice
+
+chmod +x setup.sh
+
+./setup.sh
 
 ## Dependências principais:
 
