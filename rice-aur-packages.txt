@@ -1,5 +1,6 @@
 hyprshot
 qview
 brave-bin
+asdf-vm
 qt5ct-kde
 qt6ct-kde
