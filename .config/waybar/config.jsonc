@@ -1,47 +1,51 @@
 {
-    "position": "top",
-    "margin-top": 5,
-    "margin-left": 10,
-    "margin-right": 10,
-    "margin-bottom": 0,
-    "height": 35,
-    "spacing": -2,
+  "position": "top",
+  "margin-top": 5,
+  "margin-left": 10,
+  "margin-right": 10,
+  "margin-bottom": 0,
+  "height": 35,
+  "spacing": -2,
 
-    "modules-left": ["hyprland/workspaces",],
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["tray", "pulseaudio", "network"],
 
-    "modules-center": ["clock",],
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "default": "",
+      "active": "",
+    }
+  },
 
-    "modules-right": ["tray","pulseaudio","network",],
+  "clock": {
+    "format": "{:%d %b, %Y - %H:%M}",
+    "interval": 1,
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
 
-    "clock": {
-	"format": "{:%H:%M:%S}",
-	"interval": 1,
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%d-%m-%Y}"
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "  0%",
+    "format-icons": {
+      "default": [" ", " ", " "]
     },
+    "on-click": "hyprctl dispatch exec '[float; size 800 512; center] pavucontrol'",
+    "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+  },
 
-    "pulseaudio": {
-        "format": "{icon}  {volume}%",
-        "format-muted": "  0%",
-        "format-icons": {
-        "default": ["", "", ""]
-        },
-        "on-click": "hyprctl dispatch exec '[float; size 800 512; center] pavucontrol'",
-	"on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-    },
+  "network": {
+    "format-wifi": " ",
+    "format-ethernet": " ",
+    "format-disconnected": "No Signal",
+    "format-alt": "{ipaddr}"
+  },
 
-    "network": {
-        "format-wifi": " ",
-        "format-ethernet": " ",
-        "format-disconnected": "No Signal",
-        "format-alt": "{ipaddr}"
-    },
-
-    "tray": {
+  "tray": {
     "icon-size": 15,
     "spacing": 10,
     "show-passive-items": false,
     "expand": false
-    }
-
+  }
 }

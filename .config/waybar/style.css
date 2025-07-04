@@ -18,8 +18,8 @@ window#waybar {
     border-radius: 0px;
     border-bottom: 2px solid #fbf1c7;
     background-color: #32302f;
-    color: #fbf1c7;
-    padding: 5px 10px;
+    color: #fabd2f;
+    padding: 5px 0px 5px 12px;
 }
 
 #workspaces button:nth-child(1) {
@@ -30,14 +30,20 @@ window#waybar {
     border-bottom-right-radius: 0px;
 }
 
-
 #workspaces button:hover {
     box-shadow: none;
 }
 
 #workspaces button.active {
     border: 2px solid #fbf1c7;
-    background: #4c4642;
+    border-right: none;
+    border-left: none;
+    margin: 0 0px;
+    padding: 5px 0px 5px 12px;
+}
+
+#workspaces button.active:nth-child(1) {
+    border-left: 2px solid #fbf1c7;
 }
 
 #clock {
@@ -50,21 +56,23 @@ window#waybar {
 #network {
     background-color: #32302f;
     border: 2px solid #fbf1c7;
+    border-left: none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 15px 5px 5px;
     color: #fbf1c7;
 }
 
 #pulseaudio {
     border: 2px solid #fbf1c7;
-    padding: 5px 10px;
+    border-left: none;
+    padding: 5px 10px 4px 5px;
     background-color: #32302f;
     color: #fbf1c7;
 }
 
 #tray {
-  padding: 0 12px;
+  padding: 0 12px 0px 5px;
 }
