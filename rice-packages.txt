@@ -1,4 +1,5 @@
 btop
+rofimoji
 tmux
 neovim
 fastfetch
