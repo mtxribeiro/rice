@@ -7,7 +7,7 @@
   "height": 35,
   "spacing": -2,
 
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["custom/launcher", "hyprland/workspaces"],
   "modules-center": ["clock"],
   "modules-right": ["tray", "pulseaudio", "network"],
 
@@ -19,6 +19,14 @@
     }
   },
 
+  "custom/launcher":
+  {
+    "format": "<span font='10'></span>",
+    "on-click": "rofi -show drun",
+    "on-click-right": "rofi -show run" 
+  },
+
+
   "clock": {
     "format": "{:%d %b, %Y - %H:%M}",
     "interval": 1,
@@ -26,8 +34,8 @@
   },
 
   "pulseaudio": {
-    "format": "{icon}  {volume}%",
-    "format-muted": "  0%",
+    "format": "{icon}",
+    "format-muted": " ",
     "format-icons": {
       "default": [" ", " ", " "]
     },
@@ -44,7 +52,7 @@
 
   "tray": {
     "icon-size": 15,
-    "spacing": 10,
+    "spacing": 13,
     "show-passive-items": false,
     "expand": false
   }
