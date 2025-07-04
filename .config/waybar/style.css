@@ -68,11 +68,11 @@ window#waybar {
 #pulseaudio {
     border: 2px solid #fbf1c7;
     border-left: none;
-    padding: 5px 10px 4px 5px;
+    padding: 6px 10px 4px 5px;
     background-color: #32302f;
     color: #fbf1c7;
 }
 
 #tray {
-  padding: 0 12px 0px 5px;
+  padding: 2 15px 0px 0px;
 }
