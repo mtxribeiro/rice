@@ -1,6 +1,0 @@
-2025/07/03-04:25:58.837 2d26 Reusing MANIFEST /home/matheus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/03-04:25:58.838 2d26 Recovering log #32
-2025/07/03-04:25:58.846 2d26 Reusing old log /home/matheus/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000032.log 
-2025/07/03-04:26:16.111 2d27 Level-0 table #37: started
-2025/07/03-04:26:16.132 2d27 Level-0 table #37: 1230166 bytes OK
-2025/07/03-04:26:16.137 2d27 Delete type=0 #32

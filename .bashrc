@@ -15,10 +15,9 @@ alias lla='ls -la'
 alias rm='rm -r'
 alias rmf='rm -rf'
 
+alias cl='clear'
+
 alias dev='tmux new-session "nvim"'
 alias vim='nvim'
-
-alias cl='clear'
-alias xx='exit'
 
 PS1=' \w '

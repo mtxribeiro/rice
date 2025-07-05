@@ -14,5 +14,4 @@ Backup completo e restaurável do meu rice no CachyOS, usando Hyprland e tema Gr
 
 - git clone https://github.com/mtxribeiro/rice.git
 - cd rice
-- chmod +x setup.sh
 - ./setup.sh
