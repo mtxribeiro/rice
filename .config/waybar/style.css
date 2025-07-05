@@ -19,7 +19,7 @@ window#waybar {
     border-bottom: 2px solid #fbf1c7;
     background-color: #32302f;
     color: #fabd2f;
-    padding: 5px 10px 5px 0px;
+    padding: 6px 10px 5px 0px;
 }
 
 #workspaces button:hover {
@@ -68,6 +68,6 @@ window#waybar {
     color: #fbf1c7;
     background-color: #32302f;
 
-    padding: 0px 14px 0px 8px;
+    padding: 2px 14px 0px 8px;
     margin: 8px;
 }
