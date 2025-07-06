@@ -80,9 +80,34 @@ element normal.normal {
 	text-color: @fg-color;
 }
 
+element normal.active {
+  background-color: @wbg-color;
+  text-color: @fg-color;
+}
+
+element normal.urgent {
+  background-color: @wbg-color;
+  text-color: @fg-color;
+}
+
+element selected.active {
+  background-color: @hl-color;
+  text-color: @hlt-color;
+}
+
 element alternate.normal {
 	background-color: @alt-color;
 	text-color: @fg-color;
+}
+
+element alternate.active {
+  background-color: @wbg-color;
+  text-color: @hlt-color;
+}
+
+element alternate.urgent {
+  background-color: @wbg-color;
+  text-color: @hlt-color;
 }
 
 element selected.active {
@@ -93,6 +118,16 @@ element selected.active {
 element selected.normal {
 	background-color: @hl-color;
 	text-color: @hlt-color;
+}
+
+element selected.urgent {
+  background-color: @hl-color;
+  text-color: @hlt-color;
+}
+
+element selected.alternate {
+  background-color: @hl-color;
+  text-color: @hlt-color;
 }
 
 message {
