@@ -10,6 +10,8 @@ alias lla='ls -la'
 alias rm='rm -r'
 alias rmf='rm -rf'
 
+alias cp='cp -r'
+
 alias cl='clear'
 
 alias sp='sudo pacman'
