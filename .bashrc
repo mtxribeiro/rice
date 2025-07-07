@@ -1,8 +1,3 @@
-#
-# ~/.bashrc
-#
-
-# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
@@ -17,7 +12,9 @@ alias rmf='rm -rf'
 
 alias cl='clear'
 
-alias dev='tmux new-session "nvim"'
+alias sp='sudo pacman'
+
 alias vim='nvim'
+alias code='tmux new-session "nvim"'
 
 PS1=' \w '
